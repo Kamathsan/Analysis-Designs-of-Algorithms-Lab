@@ -27,9 +27,9 @@ void Nqueen(int n){
 				for(i=1;i<=n;i++){
 					for(j=1;j<=n;j++){
 						if(j==col[i])
-							printf("👸   ");
+							printf("Q   ");
 						else
-							printf("🪖   ");
+							printf("*  ");
 					}
 					printf("\n\n");
 				}
